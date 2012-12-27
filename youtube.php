@@ -34,7 +34,7 @@ class YouTube
 	);
 	//构造函数
 	public function __construct($parama,$quality = '0'){
-		if(preg_match('/youtube.com/',$parama)){
+		if(preg_match('/youtube.com/',$parama)){	//对参数进行判断是否为地址还是视频id
 			$this->url = $parama;
 			$this->vid = $this->getVidByUrl();
 		}else{
