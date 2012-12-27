@@ -141,6 +141,7 @@ class YouTube
 	public function getVurl()
 	{
 	    $vurls = $this->getVurls();
+	    $info = $this->info;
 		foreach ($vurls as $quality=> $link) {
 		    if($this->quality = $vurls[$quality]){
 				$vurl = $vurls[$quality][2];
