@@ -49,7 +49,7 @@ class YouTube
 	);
 
 	//构造函数
-	public function __construct($parama,$quality = '0'){
+	public function __construct($parama,$quality = 'flv-640x320'){
 		if(preg_match('/youtube.com/',$parama)){
 			$this->url = $parama;
 			$this->vid = $this->getVidByUrl();
@@ -138,7 +138,7 @@ class YouTube
 	}
 
 	//获取指定分辨率视频
-	public function getVurl()
+	public function getVurl($isJson = false)
 	{
 	    $vurls = $this->getVurls();
 	    $info = $this->info;
@@ -158,7 +158,11 @@ class YouTube
 			'thumbnails' => $this->getThumbnails(),	//视频缩略图
 			'vurl' => $vurl							//视频播放地址
 		);
-		return $data;
+		
+		if($isJson)
+			return json_encode($data);
+		else
+			return $data;
 	} 
 
 	//程序调试
