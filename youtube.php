@@ -2,8 +2,8 @@
 /***
  * YouTube视频解析类
  * 支持播放页地址及视频ID解析，及支持返回单视频(可指定分辨率)和所有分辨率视频
- * getVurls()为所有分辨率视频
- * getVurl()为单视频
+ * getVdatas()为所有分辨率视频
+ * getVdata()为单视频
  * 指定分辨率格式有3gp-176x144、3gp-320x240、flv-320x240、flv-640x360、mp4-640x360、webm-640x360等
  *
  * @author	qaulau@hotmail.com
