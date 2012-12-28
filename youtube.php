@@ -61,19 +61,6 @@ class YouTube
 		$this->info = $this->getVideoInfo();
 	}
 
-	private function getHtml($url)
-    {
-        if (function_exists("curl_init"))
-        {
-            $ch = curl_init($url);
-            curl_setopt($ch, CURLOPT_HEADER, 0);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            return curl_exec($ch);
-        }else{
-            throw new Exception("No cURL module available");
-        }
-    }
-
 	//获取视频信息
 	private function getVideoInfo(){
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
