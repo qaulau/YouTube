@@ -6,7 +6,7 @@
  * getVurl()为单视频
  * 指定分辨率格式有3gp-176x144、3gp-320x240、flv-320x240、flv-640x360、mp4-640x360、webm-640x360等
  *
- * @author    qaulau@hotmail.com
+ * @author	qaulau@hotmail.com
  * @date	2012-12-28
  * @version	YouTube 1.0
  *
@@ -30,14 +30,14 @@ class YouTube
 		'17' => '3gp',
 		'36' => '3gp',
 		//MP4格式
-		'18' => 'flv',
-		'22' => 'flv',
-		'37' => 'flv',
-		'38' => 'flv',
-		'82' => 'flv',
-		'83' => 'flv',
-		'84' => 'flv',
-		'85' => 'flv',
+		'18' => 'mp4',
+		'22' => 'mp4',
+		'37' => 'mp4',
+		'38' => 'mp4',
+		'82' => 'mp4',
+		'83' => 'mp4',
+		'84' => 'mp4',
+		'85' => 'mp4',
 		//WEBM格式		
 		'43' => 'webm',
 		'44' => 'webm',
@@ -49,8 +49,8 @@ class YouTube
 	);
 
 	//构造函数
-	public function __construct($parama,$quality = 'flv-640x320'){
-		if(preg_match('/youtube.com/',$parama)){
+	public function __construct($parama,$quality = '0'){
+		if(preg_match('/(youtube\.be|youtube\.com)/',$parama)){
 			$this->url = $parama;
 			$this->vid = $this->getVidByUrl();
 		}else{
@@ -61,23 +61,32 @@ class YouTube
 		$this->info = $this->getVideoInfo();
 	}
 
+	private function getHtml($url)
+    {
+        if (function_exists("curl_init"))
+        {
+            $ch = curl_init($url);
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            return curl_exec($ch);
+        }else{
+            throw new Exception("No cURL module available");
+        }
+    }
+
 	//获取视频信息
 	private function getVideoInfo(){
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
         $ch = curl_init();
         $timeout = 30;
-        curl_setopt($ch, CURLOPT_URL,'http://www.youtube.com/get_video_info?video_id='.$this->vid);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-        curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+		curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
+		curl_setopt($ch, CURLOPT_URL,'http://www.youtube.com/get_video_info?video_id='.$this->vid);
         $data = curl_exec($ch);
         curl_close($ch);
-
 		parse_str($data,$info);
-		if(@$info['status'] == 'ok') {
-            return $info;
-        }else
-            return false;
+        return $info;
 	}
 
 	//根据URL获取vid
@@ -96,7 +105,7 @@ class YouTube
 	public function getThumbnails()
 	{
 	    $thumbnails = array(							//视频缩略图
-				'big' => $this->info['iurlsd'],			//大图
+				'big' => $this->info['iurlsd']?$this->info['iurlsd']:'http://i1.ytimg.com/vi/'.$this->vid.'/sddefault.jpg',	//大图
 				'small' => $this->info['thumbnail_url']	//小图			
 			);
 		return $thumbnails;
@@ -105,29 +114,29 @@ class YouTube
 	//获取所有分辨率视频
 	private function getVurls()
 	{
-		$links_map = explode(',',$this->info['url_encoded_fmt_stream_map']);
-		foreach($vurls_map as $vurl){
-			parse_str($vurl,$parts);
-			$vurl = $parts['url'].='&signature='.$parts['sig'];
+		$vurls_map = explode(',',$this->info['url_encoded_fmt_stream_map']);
+		foreach($vurls_map as $link ){
+			parse_str($link ,$parts);
+			$link = $parts['url'].='&signature='.$parts['sig'];
 			//获取视频格式
-			preg_match('#(^|\D)'.$parts['itag'].'/([0-9]{2,4}x[0-9]{2,4})#', $this->info['fmt-list'], $format);
+			preg_match('#(^|\D)'.$parts['itag'].'/([0-9]{2,4}x[0-9]{2,4})#', $this->info['fmt_list'], $format);
 			//创建视频地址信息
-			$links[$formats[$parts['itag']] .'-'. $format[2]] = array($this->formats[$parts['itag']], $format[2], $link);
+			$vurls[$this->formats[$parts['itag']] .'-'. $format[2]] = array($this->formats[$parts['itag']], $format[2], $link);
 		}
-		return $vurla;
+		return $vurls;
 	} 
 
 	/**
 	 * 获取视频数据默认返回的是一个数组，如果为true的话则返回json数据
 	 * */
-	public function getVideoData($isJson = false){
+	public function getVdatas($isJson = false){
 		$info = $this->info;
 		$data = array(
 			'title' => $info['title'],				//视频标题
 			'keywords' => $info['keywords'],		//视频关键词
 			'seconds' => $info['length_seconds'],	//视频时间长度（单位秒）
 			'thumbnails' => $this->getThumbnails(),	//视频缩略图
-			'vurl' => $this->getVurl()				//视频播放地址
+			'vurl' => $this->getVurls()				//视频播放地址
 		);
 
 		if($isJson)
@@ -138,10 +147,10 @@ class YouTube
 	}
 
 	//获取指定分辨率视频
-	public function getVurl($isJson = false)
+	public function getVdata()
 	{
 	    $vurls = $this->getVurls();
-	    $info = $this->info;
+		$info = $this->info;
 		foreach ($vurls as $quality=> $link) {
 		    if($this->quality = $vurls[$quality]){
 				$vurl = $vurls[$quality][2];
@@ -158,30 +167,29 @@ class YouTube
 			'thumbnails' => $this->getThumbnails(),	//视频缩略图
 			'vurl' => $vurl							//视频播放地址
 		);
-		
-		if($isJson)
-			return json_encode($data);
-		else
-			return $data;
+		return $data;
 	} 
 
 	//程序调试
 	public function debug()
 	{
-		$debugMsg = '<b><font color="red">以下是调试信息:</font></b><br/>';
-		$debugMsg .= '<br/><font color="#0000ff">视频地址：</font>';
-		$debugMsg .= $this->url?$this->url:'<font color="red">无法获取视频地址!</font>';
-		$debugMsg .= '<br/><font color="#0000ff">视频&nbsp;ID&nbsp;：</font>';
-		$debugMsg .= $this->vid?$this->vid:'<font color="red">无法获取视频ID!</font>';
-		$debugMsg .= '<br/><font color="#0000ff">视频信息：</font>';
-		$debugMsg .= $this->info?'获取视频信息正常!':'<font color="red">视频信息获取失败，无法与Youtube进行连接!</font>';
-		$debugMsg .= '<br/><font color="#0000ff">视频图片：</font>';
-		$debugMsg .= @array_filter($this->getThumbnails())?'<pre>'.var_dump($this->getThumbnails()).'</pre>':'<font color="red">无法获取视频图片!</font>';
-		$debugMsg .= '<br/><font color="#0000ff">播放地址：</font>';
-		$debugMsg .= @array_filter($this->getVurls())?'<pre>'.var_dump($this->getVurls()).'</pre>':'<font color="red">无法获取视频播放地址!</font>';
+		$debugMsg = print('<b><font color="red">以下是调试信息:</font></b><pre>');
+		$debugMsg .= print('<br/><font color="#0000ff">视频地址：</font>');
+		$debugMsg .= $this->url?print($this->url):print('<font color="red">无法获取视频地址!</font>');
+		$debugMsg .= print('<br/><font color="#0000ff">视频&nbsp;ID&nbsp;：</font>');
+		$debugMsg .= $this->vid?print($this->vid):print('<font color="red">无法获取视频ID!</font>');
+		$debugMsg .= print('<br/><font color="#0000ff">视频信息：</font>');
+		$debugMsg .= @array_filter($this->info)?var_dump($this->info):print('<font color="red">视频信息获取失败，无法与Youtube进行连接!</font>');
+		$debugMsg .= print('<br/><font color="#0000ff">视频图片：</font>');
+		$debugMsg .= @array_filter($this->getThumbnails())?var_dump($this->getThumbnails()):print('<font color="red">无法获取视频图片!</font>');
+		$debugMsg .= print('<br/><font color="#0000ff">播放地址：</font>');
+		$debugMsg .= @array_filter($this->getVurls())?var_dump($this->getVurls()):print('<font color="red">无法获取视频播放地址!</font>');
+		$debugMsg .= print('<br/><font color="#0000ff">视频数据：</font>');
+		$debugMsg .= @array_filter($this->getVdatas())?var_dump($this->getVdatas()):print('<font color="red">无法获取视频数据!</font>');
+		$debugMsg .= print('<br/><font color="#0000ff">指定视频：</font>');
+		$debugMsg .= @array_filter($this->getVdata())?var_dump($this->getVdata()):print('<font color="red">无法获取指定视频数据!</font>');
+
 		return $debugMsg;
 	} 
     
 }
-
-?>
