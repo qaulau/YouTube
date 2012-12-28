@@ -1,0 +1,251 @@
+以下是调试信息:
+
+视频地址：http://www.youtube.com/watch?v=TM8r8Ot4zvc
+视频 ID ：TM8r8Ot4zvc
+视频信息：array(36) {
+  ["allow_ratings"]=>
+  string(1) "1"
+  ["url_encoded_fmt_stream_map"]=>
+  string(6957) "sig=A5329049C39B7446D8490E3E2EB74FA492224253.1EE31A9C8AF4B1D2522F988487CB67F868513C20&type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22&quality=large&itag=44&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fratebypass%3Dyes%26source%3Dyoutube%26mv%3Du%26ms%3Dau%26key%3Dyt1%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dcp%252Cid%252Cip%252Cipbits%252Citag%252Cratebypass%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26itag%3D44%26ipbits%3D8%26ip%3D208.101.30.163%26sver%3D3&fallback_host=tc.v20.cache2.c.youtube.com,sig=0F5574B75CECE9E012719C6B0181ABEB2296C410.C177E6EF88F66E045D638712C57EE609BEEA8B97&type=video%2Fx-flv&quality=large&itag=35&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fsource%3Dyoutube%26burst%3D40%26mv%3Du%26ms%3Dau%26key%3Dyt1%26factor%3D1.25%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dalgorithm%252Cburst%252Ccp%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26ipbits%3D8%26algorithm%3Dthrottle-factor%26itag%3D35%26ip%3D208.101.30.163%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26sver%3D3&fallback_host=tc.v6.cache3.c.youtube.com,sig=0D3543ED69D02028EDF61D0BBB9B7DB24BB91C19.CF766131D757025CD72246F4E6B7953637D62560&type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22&quality=medium&itag=43&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fratebypass%3Dyes%26source%3Dyoutube%26mv%3Du%26ms%3Dau%26key%3Dyt1%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dcp%252Cid%252Cip%252Cipbits%252Citag%252Cratebypass%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26itag%3D43%26ipbits%3D8%26ip%3D208.101.30.163%26sver%3D3&fallback_host=tc.v24.cache4.c.youtube.com,sig=352F7060C8A67E75D938871C5D8B40F76BA71213.27D8D914EA2E85EAEE1D64DC2D60236491B45F8E&type=video%2Fx-flv&quality=medium&itag=34&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fsource%3Dyoutube%26burst%3D40%26mv%3Du%26ms%3Dau%26key%3Dyt1%26factor%3D1.25%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dalgorithm%252Cburst%252Ccp%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26ipbits%3D8%26algorithm%3Dthrottle-factor%26itag%3D34%26ip%3D208.101.30.163%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26sver%3D3&fallback_host=tc.v23.cache5.c.youtube.com,sig=881F191D3C616A68E71AFF5EE13AAF000A64215E.94D42C6DB6DCF25E092D06A01DB0DEB4DFC5D8C4&type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22&quality=medium&itag=18&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fratebypass%3Dyes%26source%3Dyoutube%26mv%3Du%26ms%3Dau%26key%3Dyt1%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dcp%252Cid%252Cip%252Cipbits%252Citag%252Cratebypass%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26itag%3D18%26ipbits%3D8%26ip%3D208.101.30.163%26sver%3D3&fallback_host=tc.v11.cache8.c.youtube.com,sig=CA029B80FB03509229B14BD1A65DF55D46003205.54B653606BF233A4A18B18F750556428E567641A&type=video%2Fx-flv&quality=small&itag=5&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fsource%3Dyoutube%26burst%3D40%26mv%3Du%26ms%3Dau%26key%3Dyt1%26factor%3D1.25%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dalgorithm%252Cburst%252Ccp%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26ipbits%3D8%26algorithm%3Dthrottle-factor%26itag%3D5%26ip%3D208.101.30.163%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26sver%3D3&fallback_host=tc.v16.cache4.c.youtube.com,sig=854C7D4A04E41414C48B78683FF9CD43793950A9.D4B5141404B63618EE1E7D40CC1962F8920147FA&type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22&quality=small&itag=36&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fsource%3Dyoutube%26burst%3D40%26mv%3Du%26ms%3Dau%26key%3Dyt1%26factor%3D1.25%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dalgorithm%252Cburst%252Ccp%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26ipbits%3D8%26algorithm%3Dthrottle-factor%26itag%3D36%26ip%3D208.101.30.163%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26sver%3D3&fallback_host=tc.v6.cache8.c.youtube.com,sig=1E7C68A7BB3D86DD1EC6C30E2340D980F524F32A.1FC0DCEBD06C055C6BCAAD2E1001BF0FD75EE575&type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22&quality=small&itag=17&url=http%3A%2F%2Fr7---sn-mv-vgql.c.youtube.com%2Fvideoplayback%3Fsource%3Dyoutube%26burst%3D40%26mv%3Du%26ms%3Dau%26key%3Dyt1%26factor%3D1.25%26cp%3DU0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s%26id%3D4ccf2bf0eb78cef7%26newshard%3Dyes%26upn%3D7qCDlum_J3Y%26sparams%3Dalgorithm%252Cburst%252Ccp%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire%26expire%3D1356716539%26ipbits%3D8%26algorithm%3Dthrottle-factor%26itag%3D17%26ip%3D208.101.30.163%26fexp%3D908476%252C914050%252C916623%252C920704%252C912806%252C928001%252C922403%252C922405%252C929901%252C913605%252C929104%252C913546%252C913556%252C908496%252C920201%252C913302%252C919009%252C911116%252C901451%252C902556%26sver%3D3&fallback_host=tc.v22.cache8.c.youtube.com"
+  ["vq"]=>
+  string(4) "auto"
+  ["loudness"]=>
+  string(14) "-30.0400009155"
+  ["track_embed"]=>
+  string(1) "0"
+  ["watermark"]=>
+  string(141) ",http://s.ytimg.com/yts/img/watermark/youtube_watermark-vflHX6b6E.png,http://s.ytimg.com/yts/img/watermark/youtube_hd_watermark-vflAzLcD6.png"
+  ["avg_rating"]=>
+  string(3) "4.0"
+  ["storyboard_spec"]=>
+  string(269) "http://i1.ytimg.com/sb/TM8r8Ot4zvc/storyboard3_L$L/$N.jpg|48#27#100#10#10#0#default#E0Vc1O81tQGXX4qCoDTL_ryWpC0|60#45#152#10#10#5000#M$M#skouW3j2NOlxlPcKJXLJOOzrZ-M|120#90#152#5#5#5000#M$M#YlautOM17vcaY6q4XeVgXvE1ozg|240#180#152#3#3#5000#M$M#Hnr4KxQ5FhR5f_dzvt-FRyGJBH8"
+  ["thumbnail_url"]=>
+  string(46) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/default.jpg"
+  ["has_cc"]=>
+  string(5) "False"
+  ["author"]=>
+  string(11) "newparty168"
+  ["endscreen_module"]=>
+  string(53) "http://s.ytimg.com/yts/swfbin/endscreen-vflW8uRdM.swf"
+  ["fexp"]=>
+  string(139) "908476,914050,916623,920704,912806,928001,922403,922405,929901,913605,929104,913546,913556,908496,920201,913302,919009,911116,901451,902556"
+  ["allow_embed"]=>
+  string(1) "1"
+  ["title"]=>
+  string(75) "新黨─孤寂的北極星(上)：從出走到巔峰(澳亞衛視20110903)"
+  ["ftoken"]=>
+  string(0) ""
+  ["hl"]=>
+  string(5) "en_US"
+  ["plid"]=>
+  string(16) "AATR6ALSfWdMkNLJ"
+  ["keywords"]=>
+  string(106) "新黨,李勝峰,澳亞衛視,走進台灣,謝啟大,郁慕明,宋楚瑜,國民黨,親民黨,泛藍,政治"
+  ["no_get_video_log"]=>
+  string(1) "1"
+  ["token"]=>
+  string(44) "vjVQa1PpcFPkkogx7naKiqqnhmHAuXw7kuwOiKs2DCI="
+  ["iurlsd"]=>
+  string(48) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/sddefault.jpg"
+  ["status"]=>
+  string(2) "ok"
+  ["ptk"]=>
+  string(12) "youtube_none"
+  ["timestamp"]=>
+  string(10) "1356694316"
+  ["video_id"]=>
+  string(11) "TM8r8Ot4zvc"
+  ["length_seconds"]=>
+  string(3) "755"
+  ["sendtmp"]=>
+  string(1) "1"
+  ["pltype"]=>
+  string(10) "contentugc"
+  ["account_playback_token"]=>
+  string(0) ""
+  ["view_count"]=>
+  string(3) "681"
+  ["video_verticals"]=>
+  string(9) "[396, 76]"
+  ["abd"]=>
+  string(1) "1"
+  ["tmi"]=>
+  string(1) "1"
+  ["muted"]=>
+  string(1) "0"
+  ["fmt_list"]=>
+  string(144) "44/854x480/99/0/0,35/854x480/9/0/115,43/640x360/99/0/0,34/640x360/9/0/115,18/640x360/9/0/115,5/320x240/7/0/0,36/320x240/99/0/0,17/176x144/99/0/0"
+}
+
+视频图片：array(2) {
+  ["big"]=>
+  string(48) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/sddefault.jpg"
+  ["small"]=>
+  string(46) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/default.jpg"
+}
+
+播放地址：array(7) {
+  ["webm-854x480"]=>
+  array(3) {
+    [0]=>
+    string(4) "webm"
+    [1]=>
+    string(7) "854x480"
+    [2]=>
+    string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=44&ipbits=8&ip=208.101.30.163&sver=3&signature=A5329049C39B7446D8490E3E2EB74FA492224253.1EE31A9C8AF4B1D2522F988487CB67F868513C20"
+  }
+  ["flv-854x480"]=>
+  array(3) {
+    [0]=>
+    string(3) "flv"
+    [1]=>
+    string(7) "854x480"
+    [2]=>
+    string(649) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=35&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=0F5574B75CECE9E012719C6B0181ABEB2296C410.C177E6EF88F66E045D638712C57EE609BEEA8B97"
+  }
+  ["webm-640x360"]=>
+  array(3) {
+    [0]=>
+    string(4) "webm"
+    [1]=>
+    string(7) "640x360"
+    [2]=>
+    string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=43&ipbits=8&ip=208.101.30.163&sver=3&signature=0D3543ED69D02028EDF61D0BBB9B7DB24BB91C19.CF766131D757025CD72246F4E6B7953637D62560"
+  }
+  ["flv-640x360"]=>
+  array(3) {
+    [0]=>
+    string(3) "flv"
+    [1]=>
+    string(7) "640x360"
+    [2]=>
+    string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=18&ipbits=8&ip=208.101.30.163&sver=3&signature=881F191D3C616A68E71AFF5EE13AAF000A64215E.94D42C6DB6DCF25E092D06A01DB0DEB4DFC5D8C4"
+  }
+  ["flv-320x240"]=>
+  array(3) {
+    [0]=>
+    string(3) "flv"
+    [1]=>
+    string(7) "320x240"
+    [2]=>
+    string(648) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=5&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=CA029B80FB03509229B14BD1A65DF55D46003205.54B653606BF233A4A18B18F750556428E567641A"
+  }
+  ["3gp-320x240"]=>
+  array(3) {
+    [0]=>
+    string(3) "3gp"
+    [1]=>
+    string(7) "320x240"
+    [2]=>
+    string(649) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=36&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=854C7D4A04E41414C48B78683FF9CD43793950A9.D4B5141404B63618EE1E7D40CC1962F8920147FA"
+  }
+  ["3gp-176x144"]=>
+  array(3) {
+    [0]=>
+    string(3) "3gp"
+    [1]=>
+    string(7) "176x144"
+    [2]=>
+    string(649) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=17&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=1E7C68A7BB3D86DD1EC6C30E2340D980F524F32A.1FC0DCEBD06C055C6BCAAD2E1001BF0FD75EE575"
+  }
+}
+
+视频数据：array(5) {
+  ["title"]=>
+  string(75) "新黨─孤寂的北極星(上)：從出走到巔峰(澳亞衛視20110903)"
+  ["keywords"]=>
+  string(106) "新黨,李勝峰,澳亞衛視,走進台灣,謝啟大,郁慕明,宋楚瑜,國民黨,親民黨,泛藍,政治"
+  ["seconds"]=>
+  string(3) "755"
+  ["thumbnails"]=>
+  array(2) {
+    ["big"]=>
+    string(48) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/sddefault.jpg"
+    ["small"]=>
+    string(46) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/default.jpg"
+  }
+  ["vurl"]=>
+  array(7) {
+    ["webm-854x480"]=>
+    array(3) {
+      [0]=>
+      string(4) "webm"
+      [1]=>
+      string(7) "854x480"
+      [2]=>
+      string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=44&ipbits=8&ip=208.101.30.163&sver=3&signature=A5329049C39B7446D8490E3E2EB74FA492224253.1EE31A9C8AF4B1D2522F988487CB67F868513C20"
+    }
+    ["flv-854x480"]=>
+    array(3) {
+      [0]=>
+      string(3) "flv"
+      [1]=>
+      string(7) "854x480"
+      [2]=>
+      string(649) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=35&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=0F5574B75CECE9E012719C6B0181ABEB2296C410.C177E6EF88F66E045D638712C57EE609BEEA8B97"
+    }
+    ["webm-640x360"]=>
+    array(3) {
+      [0]=>
+      string(4) "webm"
+      [1]=>
+      string(7) "640x360"
+      [2]=>
+      string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=43&ipbits=8&ip=208.101.30.163&sver=3&signature=0D3543ED69D02028EDF61D0BBB9B7DB24BB91C19.CF766131D757025CD72246F4E6B7953637D62560"
+    }
+    ["flv-640x360"]=>
+    array(3) {
+      [0]=>
+      string(3) "flv"
+      [1]=>
+      string(7) "640x360"
+      [2]=>
+      string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=18&ipbits=8&ip=208.101.30.163&sver=3&signature=881F191D3C616A68E71AFF5EE13AAF000A64215E.94D42C6DB6DCF25E092D06A01DB0DEB4DFC5D8C4"
+    }
+    ["flv-320x240"]=>
+    array(3) {
+      [0]=>
+      string(3) "flv"
+      [1]=>
+      string(7) "320x240"
+      [2]=>
+      string(648) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=5&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=CA029B80FB03509229B14BD1A65DF55D46003205.54B653606BF233A4A18B18F750556428E567641A"
+    }
+    ["3gp-320x240"]=>
+    array(3) {
+      [0]=>
+      string(3) "3gp"
+      [1]=>
+      string(7) "320x240"
+      [2]=>
+      string(649) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=36&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=854C7D4A04E41414C48B78683FF9CD43793950A9.D4B5141404B63618EE1E7D40CC1962F8920147FA"
+    }
+    ["3gp-176x144"]=>
+    array(3) {
+      [0]=>
+      string(3) "3gp"
+      [1]=>
+      string(7) "176x144"
+      [2]=>
+      string(649) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?source=youtube&burst=40&mv=u&ms=au&key=yt1&factor=1.25&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&expire=1356716539&ipbits=8&algorithm=throttle-factor&itag=17&ip=208.101.30.163&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&sver=3&signature=1E7C68A7BB3D86DD1EC6C30E2340D980F524F32A.1FC0DCEBD06C055C6BCAAD2E1001BF0FD75EE575"
+    }
+  }
+}
+
+指定视频：array(5) {
+  ["title"]=>
+  string(75) "新黨─孤寂的北極星(上)：從出走到巔峰(澳亞衛視20110903)"
+  ["keywords"]=>
+  string(106) "新黨,李勝峰,澳亞衛視,走進台灣,謝啟大,郁慕明,宋楚瑜,國民黨,親民黨,泛藍,政治"
+  ["seconds"]=>
+  string(3) "755"
+  ["thumbnails"]=>
+  array(2) {
+    ["big"]=>
+    string(48) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/sddefault.jpg"
+    ["small"]=>
+    string(46) "http://i1.ytimg.com/vi/TM8r8Ot4zvc/default.jpg"
+  }
+  ["vurl"]=>
+  string(601) "http://r7---sn-mv-vgql.c.youtube.com/videoplayback?ratebypass=yes&source=youtube&mv=u&ms=au&key=yt1&cp=U0hUS1dMVF9IU0NONF9PRlhGOnpVMXoyd01LMF9s&id=4ccf2bf0eb78cef7&newshard=yes&upn=7qCDlum_J3Y&sparams=cp%2Cid%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&expire=1356716539&fexp=908476%2C914050%2C916623%2C920704%2C912806%2C928001%2C922403%2C922405%2C929901%2C913605%2C929104%2C913546%2C913556%2C908496%2C920201%2C913302%2C919009%2C911116%2C901451%2C902556&itag=44&ipbits=8&ip=208.101.30.163&sver=3&signature=A5329049C39B7446D8490E3E2EB74FA492224253.1EE31A9C8AF4B1D2522F988487CB67F868513C20"
+}
