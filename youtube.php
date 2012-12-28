@@ -67,12 +67,12 @@ class YouTube
         $ch = curl_init();
         $timeout = 30;
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-		curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
-		curl_setopt($ch, CURLOPT_URL,'http://www.youtube.com/get_video_info?video_id='.$this->vid);
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+	curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
+	curl_setopt($ch, CURLOPT_URL,'http://www.youtube.com/get_video_info?video_id='.$this->vid);
         $data = curl_exec($ch);
         curl_close($ch);
-		parse_str($data,$info);
+	parse_str($data,$info);
         return $info;
 	}
 
