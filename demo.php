@@ -6,6 +6,6 @@ $url = $_GET['url'];
 if($url){
   	$yt = new YouTube($url); 
 }else{
-	$yt = new YouTube('http://www.youtube.be/watch?v=pAk1XIB9Ok0'); 
+	$yt = new YouTube('http://www.youtube.com/watch?v=iQDm6XzgbPw&list=PL14BFF58590E9CE26''); 
 }
 $yt->debug();
